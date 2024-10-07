@@ -4,8 +4,11 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
-
+function initialnames(array) {
+    for (let i = 0; i < array.length; i++) {
+        const element = array[i];  
+    }
+}
 // Invoca la funzione qui e stampa il risultato in console
 
 
