@@ -6,12 +6,11 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 function initialnames(arraynames) {
+    const chartNames = []
     for (let i = 0; i < arraynames.length; i++) {
         const element = arraynames[i]; 
-        const chartNames = []
-        console.log(c);
-        
-        return element.charAt(0) 
+        element.push(element.charAt(0))
+        return chartNames
     }
 }
 // Invoca la funzione qui e stampa il risultato in console
