@@ -4,10 +4,15 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+const result = names.filter(arraystring)
 
+function arraystring(arraychart) {
+    return arraychart >= names
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
+console.log(arraystring(names));
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
