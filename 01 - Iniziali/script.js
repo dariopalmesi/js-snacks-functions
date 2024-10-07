@@ -9,7 +9,7 @@ function initialnames(arraynames) {
     const chartNames = []
     for (let i = 0; i < arraynames.length; i++) {
         const element = arraynames[i]; 
-         chartNames.push(element.chartAt(0))
+         chartNames.push(element.charAt(0))
        
     }
     return chartNames
